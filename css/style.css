@@ -1,0 +1,350 @@
+/* CSS by DevKhode */
+
+/* nav bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 70px !important;
+}
+
+section{
+    overflow-x: hidden;
+}
+
+#hamburgerbtn{
+    margin-right: 25px;
+    margin-top: 20px;
+
+}
+
+.social{
+    display: inline;
+}
+
+.brand-name{
+    font-size: 2rem;
+}
+
+.brand-name a img{
+    background: white;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+button{
+    background-color: transparent;
+    color: black;
+    border: none;
+    height: 100%;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none !important;
+
+    
+}
+
+
+.link{
+    position: relative;
+    font-size: 3rem;
+    font-weight: 800;
+    font:  normal normal bold Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    top: 0px;
+    padding-right: 30px;
+    
+}
+.case{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+position: absolute;
+right: 500px;
+top: 20px;
+width: 193px;
+height:289px;
+color: white;
+}
+.talk{
+    position: relative;
+    right: 1140px;
+    top: 70px;
+    width: 100%;
+    font-size: 1rem;
+}
+.ext-link{
+    position: relative;
+    right: 905px;
+    top: 30px;
+    z-index: 1000;
+}
+
+.img-thumbnail{
+    border: none !important;
+}
+
+
+.brief, .join, .terms{
+    text-decoration: underline !important;
+    font-size: 1rem;
+
+}
+
+li{
+    list-style: none;
+    
+}
+
+
+a{
+    text-decoration: none !important;
+    color: white;
+
+  
+}
+ .hide{
+    display: flex;
+    text-align: right !important;
+    box-sizing: border-box;
+    display: none;
+    border-radius: 5px;
+    animation-name: bounce;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    color: white;
+} 
+
+
+#closeBtn{
+    position: absolute;
+    left: 45%;
+    bottom: 43%;
+    font-size: 1.4rem;
+    display: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+ } 
+@keyframes bounce{
+    0%{
+        transform: scale(0.19);
+    }
+    10%{
+        transform: scale(0.25);
+    }
+    20%{
+        transform: scale(0.35);
+    }
+    30%{
+        transform: scale(0.45);
+    }
+
+    40%{
+        transform: scale(0.55);
+    }
+    50%{
+        transform: scale(0.65);
+    }
+    60%{
+        transform: scale(0.75);
+    }
+    70%{
+        transform: scale(0.85);
+    }
+    80%{
+        transform: scale(0.9);
+    }
+    90%{
+        transform: scale(0.95);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+.icon{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: center;
+    
+    
+
+}
+.icon li a{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    padding-left: 0px;
+
+
+}
+
+/**** Section-one content  */
+
+.digital{
+text-align: center;
+font: normal normal 900 4rem/40px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+z-index: 20;
+}
+
+.nondisplay{
+    display: none;
+}
+
+.digital span{
+    text-decoration: underline;
+}
+
+.innovative{
+font-size:1.5rem;    
+letter-spacing: 0px;
+color: #000000;
+opacity:1
+}
+
+.teapot{
+padding-top: 150px;
+font: normal normal bolder 50px/70px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.view-project{
+    font-weight: bold;
+}
+
+.befit{
+    font: normal normal bolder 50px/70px Roboto;
+    padding-top: 105px; 
+    letter-spacing: 0px;
+    box-sizing: border-box;   
+
+}
+
+.yinka{
+    font: normal normal bolder 50px/70px Roboto;
+    padding-top: 80px; 
+    letter-spacing: 0px; 
+    box-sizing: border-box;  
+
+}
+
+.ui{
+    margin-bottom: 0;
+}
+
+.ui .life{
+    position: relative;
+    top: -20px;
+    margin-left:50%;
+    box-sizing: border-box;
+}
+
+.btnSubmit{
+   background:  #E77F11 0% 0% no-repeat padding-box;
+   width: 327px;
+   height: 48px;
+   text-align: left;
+   font: normal normal medium 22px/25px Roboto;
+   font-size: 1.5rem;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+   
+}
+.card{
+    width: 250px !important;
+}
+
+.magic{
+font-family:  Roboto !important;
+font-size: 3.5rem;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.card{
+    height:200px !important;
+    width:300px !important;
+    border-radius: 10px !important;
+    box-sizing: border-box !important;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: #000000;
+    color: white;
+}
+
+
+.touch{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+
+/* mobile view */
+
+@media all and (max-width:720px){
+    
+    .befited{
+        display: flex !important;
+        flex-direction:column !important;
+
+    }
+    
+    .first-row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .teapot, .befit, .yinka{
+        padding-top: 20px !important;
+    }
+
+    .largedisplay{
+        display: none;
+    }
+
+    .card{
+        margin: auto !important;
+        margin-top: 10px !important;
+    }
+
+    .nondisplay{
+        display: flex;
+    }
+   
+}
+
+@media all and (max-width:1187px){
+
+.teapot{
+    position: relative;
+    right: 10px !important;
+
+}
+
+
+}
