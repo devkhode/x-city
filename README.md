@@ -1,2 +1,2 @@
 # xCity
-start-up
+A website for a tech start-up
