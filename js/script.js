@@ -10,6 +10,7 @@ var joinUS = document.querySelector(".join")
 var contactForm = document.querySelector("#contact")
 var allLink = document.querySelector(".link")
 var terms = document.querySelector(".terms")
+var workPage = document.querySelector(".next")
 
 
 function OverFlow() {
@@ -33,6 +34,7 @@ function joinUsLink() {
 
 function show() {
     links.style.display = "block"
+    links.style.zIndex = "1"
     hamb.style.display = "none"
     links.style.marginTop = "100px"
     closeb.style.display = "inline-block"
@@ -41,6 +43,7 @@ function show() {
     OverFlow()
     sectionOne.style.display="none"
     contactForm.style.display="none"
+    workPage.style.display = "none"
 
 
 };
@@ -53,6 +56,7 @@ function closeup() {
     changeBody.style.background= "none"
     sectionOne.style.display="block"
     changeBody.style.overflowY= "scroll"
+    workPage.style.display = "block"
 };
 
 
