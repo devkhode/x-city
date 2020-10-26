@@ -1,6 +1,21 @@
 /* CSS by DevKhode */
 
+
+/* font import start */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* font import end */
+
+
+
+
 /* nav bar */
+body{
+    margin: 0;
+    padding: 0;
+}
 
 nav{
     display: flex;
@@ -8,6 +23,7 @@ nav{
     box-sizing: border-box;
     height: 70px !important;
 }
+
 
 section{
     overflow-x: hidden;
@@ -119,7 +135,119 @@ a{
     animation-timing-function: ease-out;
     animation-duration: 1s;
     color: white;
-} 
+}
+
+/* Our Work */
+.workheader{
+    background-color: #000000;
+}
+
+.work-bigheader{
+    padding-top: 50px;
+    text-align: center;
+    font: normal normal bold 160px/203px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1; 
+}
+
+.work-smallheader{
+    text-align: center;
+    font: normal normal 300 40px/60px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.our-expertise{
+    text-align: left;
+    font: normal normal bold 135px/147px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.work-skill{
+    padding-left: 136px;
+    text-align: left;
+    font: italic normal normal 40px/60px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.work-list div ul li{
+    list-style: none;
+    text-align: left;
+    font: normal normal normal 66px/147px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+
+/* About Us */
+
+.about-intro{
+    font: normal normal bold 160px/203px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.about-more{
+    text-align: center;
+    font: normal normal 300 40px/60px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+.our-story{
+    text-align: left;
+    
+    font: normal normal bold 70px/123px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.about-lorem{
+    text-align: left;
+    padding-left: 255px;
+    font: normal normal 300 30px/60px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+/* brief and contact form */
+
+input{
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+
+}
+
+#contact{
+    display: none;
+}
+
+input::placeholder{
+    font-size: 1.2rem;
+}
+
+.contact-btn{
+    width:428px;
+    height:48px;
+    text-align: center;
+    background-color: #E77F11;
+}
 
 
 #closeBtn{
@@ -259,7 +387,7 @@ opacity: 1;
 
 .btnSubmit{
    background:  #E77F11 0% 0% no-repeat padding-box;
-   width: 327px;
+   width: 427px;
    height: 48px;
    text-align: left;
    font: normal normal medium 22px/25px Roboto;
@@ -271,6 +399,12 @@ opacity: 1;
 }
 .card{
     width: 250px !important;
+}
+
+.together{
+    background-color: #F5F2F2;
+    padding: 30px 0 30px 0;
+
 }
 
 .magic{
@@ -331,9 +465,31 @@ footer{
         margin: auto !important;
         margin-top: 10px !important;
     }
-
     .nondisplay{
         display: flex;
+    }
+    .together{
+      padding-left: 25%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      /* height: 100% !important;
+      width: 100%;  */
+      margin-bottom: 10%;
+      margin-top: 10%;
+      background-color: gainsboro;
+
+    }
+    .together .btnSubmit{
+        font-size:1.2rem !important;
+        width: 70%;
+        letter-spacing: 0;
+    }
+
+    .together .magic{
+        font-size: 2rem;
+       
+
+    
     }
    
 }
