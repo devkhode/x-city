@@ -167,6 +167,19 @@ a{
     opacity: 1;
 }
 
+.creative-lorem{
+    text-align: left;
+    font: normal normal normal 24px/30px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.work-bg{
+    background-color: black;
+}
+
+
 .work-skill{
     padding-left: 136px;
     text-align: left;
@@ -176,16 +189,90 @@ a{
     opacity: 1;
 }
 
+.work-creative{
+    text-align: left;
+    font: normal normal bold 40px/65px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
 .work-list div ul li{
     list-style: none;
     text-align: left;
-    font: normal normal normal 66px/147px Roboto;
+    font: normal normal normal 50px/100px Roboto;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
 
 }
 
+.work-client{
+    text-align: left;
+    font: normal normal bold 28px/28px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.work-test{
+    text-align:center;
+    font: italic normal 300 30px/39px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.work-name{
+    text-align: center;
+    font: normal normal bold 20px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.work-think{
+    text-align: left;
+    font: normal normal normal 45px/61px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 582px;
+    height: 191px;
+}
+
+.work-word{
+    text-align: center;
+    font: italic normal normal 20px/30px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 220px;
+    margin: auto;
+    
+}
+
+.work-ceo{
+    font: normal normal 300 12px/14px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.work-foot{
+    width: 304px;
+    height: 441px;
+}
+
+.work-btn{
+    background: #E77F11 0% 0% no-repeat;
+    border-radius: 4px;
+    opacity: 1;
+    width: 320px;
+    height: 50px;
+    padding-right: 150px;
+
+}
 
 /* About Us */
 
@@ -425,16 +512,43 @@ opacity: 1;
 /* footer */
 footer{
     width: 100%;
-    height: 220px;
+    height: 100%;
     background-color: #000000;
     color: white;
 }
 
 
 .touch{
-    font-size: 3rem;
-    font-weight: bolder;
+    text-align: left;
+    font: normal normal bold 100px/107px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 50px;
 }
+
+.aproject{
+    text-align: left;
+    font: normal normal normal 20px/13px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.aready{
+    text-align: left;
+    font: normal normal normal 20px/26px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 50px;
+    width: 100%;
+}
+
+
+
 
 
 
